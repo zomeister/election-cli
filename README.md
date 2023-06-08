@@ -20,16 +20,22 @@ begin:
 ├── Pipfile.lock
 ├── README.md
 └── lib
+    ├── classes
+    │   ├── ballot.py
+    │   ├── candidate.py
+    │   ├── position.py
+    │   └── voter.py
     ├── cli.py
     ├── db
-    │   ├── models.py
-    │   └── seed.py
+    │   ├── election_database.db (DO NOT EDIT)
+    │   ├── models.py
+    │   └── seed.py
     ├── debug.py
     └── helpers.py
 ```
 
 > **Note: You may already know some or all of the material covered in this
-> lesson. We hope that having it all in one place will help you in designing
+> lesson. We hope that having it all in  one place will help you in designing
 > and developing your project, regardless of where you're starting off.**
 
 ***
